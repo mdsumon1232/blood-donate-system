@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.right-side {
+  width: calc(100% - 300px);
+  background-color: #80808042;
+}
+
+.requests {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.request-card {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.request-card > h3 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 25px;
+}
+
+.request-card > p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.request-card > h4 {
+  margin: 15px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.request-card > img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}

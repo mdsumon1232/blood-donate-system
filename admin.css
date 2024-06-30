@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.admin-page-title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+.table thead tr th {
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #ff0000;
+}
+
+.table tbody tr td {
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 16px;
+}
+.table tbody tr td a {
+  text-decoration: none;
+  color: black;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #eeedeb;
+}
+.table tbody tr:nth-child(even) {
+  background-color: #f1e5d1;
+}

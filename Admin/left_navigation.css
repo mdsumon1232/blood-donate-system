@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff0000;
+}
+
+.logo a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.log_out {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  background-color: green;
+  padding: 8px 15px;
+}
+
+.left_navigation {
+  width: 300px;
+  padding: 20px;
+  height: calc(100vh - 77px);
+
+  background-color: #302e2e;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: fill;
+}
+
+.left_navigation ul {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.left_navigation ul li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.left_navigation ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
